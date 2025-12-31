@@ -1,3 +1,19 @@
 # datasets
 /data/train.csv
 /data/*.csv
+
+# python
+__pycache__/
+*.pyc
+
+# airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# data
+/data/*.csv
+/data/train.csv
+
+# misc
+.DS_Store
+
