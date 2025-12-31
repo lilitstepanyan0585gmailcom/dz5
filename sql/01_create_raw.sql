@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS raw;
+
+DROP TABLE IF EXISTS raw.train;
+
+CREATE TABLE raw.train (
+  payload JSONB
+);
